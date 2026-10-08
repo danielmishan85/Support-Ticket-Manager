@@ -1,5 +1,7 @@
 # Support Ticket Manager
 
+https://github.com/user-attachments/assets/059cef54-af79-49a7-aefb-ce46d0edcdff
+
 Requires Node.js and npm.
 
 ## Start the server
