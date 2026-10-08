@@ -22,4 +22,12 @@ export const tickets: Ticket[] = [
     status: TicketStatus.schema.enum.RESOLVED,
     createdAt: new Date().toISOString(),
   },
+  {
+    id: faker.string.uuid(),
+    title: "UI styling fix on navbar",
+    description: "Logo is slightly misaligned on mobile devices.",
+    priority: TicketPriority.schema.enum.MEDIUM,
+    status: TicketStatus.schema.enum.RESOLVED,
+    createdAt: new Date().toISOString(),
+  },
 ];

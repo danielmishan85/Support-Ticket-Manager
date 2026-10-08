@@ -1,8 +1,8 @@
 # Support Ticket Manager
 
-## Start the server
-
 Requires Node.js and npm.
+
+## Start the server
 
 ```bash
 cd server
@@ -10,10 +10,29 @@ npm install
 npm run dev
 ```
 
-The server starts at `http://localhost:5000`.
+The API starts at `http://localhost:5001`.
 
-Available endpoints:
+## API endpoints
 
 - `GET /api/tickets`
 - `POST /api/tickets`
 - `PATCH /api/tickets/:id/resolve`
+
+## Start the client
+
+Open another terminal:
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+The client lets you:
+
+- View all support tickets
+- Filter tickets by status
+- Create new tickets
+- Mark open tickets as resolved
